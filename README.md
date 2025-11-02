@@ -136,8 +136,7 @@ Parmar Mohit
 📧 mohitparmardeveloper@gmail.com
 🌍 www.linkedin.com/in/mohit-parmar-0b7514271
 
-
-<p align="center"> <a href="https://github.com/ParmarMohitDeveloper/Google-Login-MERN-WebApp"> ⭐ Star this repo if you like it! </a> </p>
+https://github.com/ParmarMohitDeveloper/Google-Login-MERN-WebApp ⭐ Star this repo if you like it! 
 
 🪄 License
 
