@@ -11,14 +11,13 @@ require('./models/dbConnect');
 const authRoutes = require('./routes/authRoutes');
 const PORT = process.env.PORT 
 
+// ✅ Allow only your deployed frontend and localhost (for development)
 app.use(cors({
-    origin: function (origin, callback) {
-        // Allow requests with no origin (like mobile apps or curl requests)
-        if (!origin) return callback(null, true);
-        return callback(null, origin);
-    },
-    credentials: true,
+  origin: ["https://goggleloginmern.netlify.app", "http://localhost:5173"],
+  credentials: true,
 }));
+
+
 app.use('/auth/', authRoutes); // <- NEW LINE
 
 app.all('*', (req, res) => {
